@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import "./infographItem_m2.scss";
 
-//README: Method 2: 
-//Slice the full array into a smaller array
+//Method 2:
+//Slice the full array into a smaller array based on the displayBars number. When expand is clicked, displayBars becomes the max length of the array.
 
 
 export default function InfographItemM2(props) 

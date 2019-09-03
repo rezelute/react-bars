@@ -7,8 +7,6 @@ import "./infograph.scss";
 
 export default function Infograph(props)
 {
-  //let maxBarsDisplay = props.data.maxBarsDisplay;
-  //console.log(props)
   return (
     <section className="infograph">
       <div id="infograph_method1">
@@ -25,7 +23,7 @@ export default function Infograph(props)
 
       <div id="infograph_method2">
         <h1>{props.dataMethod2.main_heading} [Method 2]</h1>
-        <p>Slice the full array into a smaller array and only display the sliced number of items.</p>
+        <p>Slice the full array into a smaller array based on the displayBars number. When expand is clicked, displayBars becomes the max length of the array.</p>
         <div id="infograph-sections">
           {
             props.dataMethod2.datasets.map((infoData, index) => (

@@ -2,21 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import "./infographItem.scss";
 
-//README: Method 1: 
+//Method 1:
 //Check if the height is over 400px, if so, collapse the DIV container and add 'expand' button
 
 export default function InfographItem(props) 
 {
-  //let barsShown = props.maxShowBars;
-
-  //on expand button press, remove the expand button and remove the collapse so the height becomes 100%
-  // function onExpandTable(e)
-  // {
-  //   e.preventDefault();
-  //   barsShown = props.infItemData.dataItems.length;
-  // }
-
-  //const bars = props.infItemData.dataItems.slice(0, barsShown).map((barItem, keyIndex) =>
   const bars = props.infItemData.dataItems.map((barItem, keyIndex) =>
     <tr key={keyIndex}>
       <td className="title">{barItem.title}</td>
@@ -53,7 +43,6 @@ export default function InfographItem(props)
     </section>
   )
 }
-
 
 
 
