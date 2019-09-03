@@ -1,0 +1,45 @@
+{
+  "main_heading": "Skyrim people chat lines",
+  "datasets": [
+    {
+      "heading": "Markarth area",
+      "data": {
+        "Imedhnain": "90",
+        "Lisbet": "30",
+        "Skaggi Scar-Face": "70",
+        "Rhiada": "5",
+        "Nepos the Nose": "20",
+        "Endon": "5",
+        "Daighre": "5",
+        "Torom": "55",
+        "Aicantar": "22",
+        "Anton Virane": "3",
+        "Calcelmo": "56",
+        "Faleen": "10",
+        "Ghorza gra-Bagol": "84",
+        "Jarl Igmund": "32",
+        "Legate Emmanuel Admand": "33",
+        "Moth gro-Bagol Blacksmith": "75",
+        "Ondolemar": "54",
+        "Raerek": "82",
+        "Rondach": "24",
+        "Tacitus Sallustius": "42",
+        "Thalmor Soldiers": "95",
+        "Vigdis Salvius": "31"
+      }
+    },
+    {
+      "heading": "Falkreath area",
+      "data": {
+        "Arcturus": "57",
+        "Arnbjorn": "39",
+        "Babette": "105",
+        "Cicero": "55",
+        "Festus Krex": "21",
+        "Gabriella": "10",
+        "Nazir": "12",
+        "Night Mother": "155"
+      }
+    }
+  ]
+}

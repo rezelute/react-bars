@@ -1,0 +1,69 @@
+
+section.dataset{
+  width: 40%;
+  margin:0.5em;
+  padding:0.5em;
+  //border:1px solid red;
+
+  h2{
+    color: blue;
+  }
+
+  >div{
+    overflow:hidden;
+    position: relative;
+    max-height:999px;
+    transition: max-height 0.3s ease-in;
+  }
+  >div.collapse{
+    max-height:400px;
+    transition: max-height 0.3s ease-out;
+  }
+
+  >div > table{
+    border:2px solid #333;
+    width:100%;
+    height: 300px;
+  }
+
+  //table headings
+  >div > table th{
+    padding:0.2em;
+    background: #333;
+    color:white;
+  }
+
+  //table cells
+  >div > table td{
+    padding:0.3em;
+  }
+
+  //counter
+  >div > table td.counter {
+    text-align: center;
+  }
+
+  //bar
+  >div > table td.bar > div{
+    //background: red;
+    border-radius: 0.2em;
+    height: 1em;
+  }
+
+  //expand button
+  div.collapseBtn{
+    display: block;
+    text-align:center;
+    background: rgba(57, 58, 58, 0.95);
+    padding:0.5em 0;
+    width:100%;
+    position: absolute;
+    bottom:0;
+  }
+  div.collapseBtn.isExpanded{
+    position: initial;
+  }
+  div.collapseBtn.hide{
+    display: none;
+  }
+}
